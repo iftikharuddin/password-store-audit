@@ -18,10 +18,5 @@ Improvement: Enhance code readability and efficiency by implementing an access c
 - In `PasswordStore` contract `setPassword` Storing plain-text passwords is a severe security risk; secure hashing and salting are essential to protect user data.
 - The `DeployPasswordStore.s.sol` script, it's not recommended to pass plain password text/value. Reading it from an environment file (.env) would be a more secure approach
 
-# to remove
-
-local addy of contract: 0x5FbDB2315678afecb367f032d93F642f64180aa3
-
-Goal: You’ll be auditing PasswordStore, a simple solidity protocol meant to allow the owner to store and
- retrieve their password securely., verifying and putting in place more rigorous security best practices.
+# Thank you
 
