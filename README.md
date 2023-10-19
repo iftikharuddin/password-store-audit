@@ -1,4 +1,4 @@
-# First Flight #1: PasswordStore Audit by Iftikhar Uddin
+# First Flight #1: PasswordStore Audit by Iftikhar Uddin for CodeHawk
 
 # Summary
 
@@ -47,6 +47,5 @@ This audit report covers the security analysis of the `PasswordStore` smart cont
 4 - In the deployment script (`DeployPasswordStore.s.sol`), consider reading sensitive data like passwords from an environment file (e.g., .env) rather than passing them directly in the script.
 
     
-
 # Thank you
 
